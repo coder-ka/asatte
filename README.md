@@ -1,6 +1,6 @@
 # asatte
 
-Asatte is immutable date manipulation library for minimalist.
+Asatte(Day after tomorrow in Japanese) is immutable date manipulation library for minimalist.
 
 There is no syntax (e.g. "d" "y").
 
@@ -38,20 +38,24 @@ npm i asatte
 
 You can understand what function to use with these signatures.
 
-- addY(years: number, date: Date): Date
-- addMo(months: number, date: Date): Date
-- addD(dates: number, date: Date): Date
-- addH(hours: number, date: Date): Date
-- addMi(minutes: number, date: Date): Date
-- addS(seconds: number, date: Date): Date
-- addMS(milliseconds: number, date: Date): Date
+addX:
 
-- setY(years: number, date: Date): Date
-- setMo(months: number, date: Date): Date
-- setD(dates: number, date: Date): Date
-- setH(hours: number, date: Date): Date
-- setMi(minutes: number, date: Date): Date
-- setS(seconds: number, date: Date): Date
-- setMS(milliseconds: number, date: Date): Date
+- `addY(years: number, date: Date): Date`
+- `addMo(months: number, date: Date): Date`
+- `addD(dates: number, date: Date): Date`
+- `addH(hours: number, date: Date): Date`
+- `addMi(minutes: number, date: Date): Date`
+- `addS(seconds: number, date: Date): Date`
+- `addMS(milliseconds: number, date: Date): Date`
+
+setX:
+
+- `setY(years: number, date: Date): Date`
+- `setMo(months: number, date: Date): Date`
+- `setD(dates: number, date: Date): Date`
+- `setH(hours: number, date: Date): Date`
+- `setMi(minutes: number, date: Date): Date`
+- `setS(seconds: number, date: Date): Date`
+- `setMS(milliseconds: number, date: Date): Date`
 
 And every function is curried!
